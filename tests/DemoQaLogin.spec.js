@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('Shopping Page & buy products', async ({ page }) => {
+test('Shopping Page & buy products', async ({ page }) => {
   const Mobile = "Samsung galaxy s7";
 
   // --- Go to homepage ---

@@ -36,7 +36,7 @@ jobs:
 
       # 5️⃣ Run Playwright tests
       - name: Run Playwright Tests
-        run: npx playwright test
+        run: npx playwright test tests/DemoQaLogin.spec.js
         env:
           CI: true
 

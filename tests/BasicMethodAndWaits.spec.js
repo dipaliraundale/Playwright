@@ -107,7 +107,7 @@ test("Login ", async ({ browserName, page }) => {
 
 });
 
-test.only("Login and get all the title and waits and idle state ", async ({ browserName, page }) => {
+test("Login and get all the title and waits and idle state ", async ({ browserName, page }) => {
   console.log(`${colors[browserName] || ""}Running on browser: ${browserName}${colors.reset}`);
   test.setTimeout(90000);
   const userName = page.locator("#username");

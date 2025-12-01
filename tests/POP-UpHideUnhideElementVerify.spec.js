@@ -33,7 +33,7 @@ await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
 
 
 
-test.only("Mouse hover element",async({page})=>{
+test("Mouse hover element",async({page})=>{
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/"); 
    await page.locator("#mousehover").hover();   //// hovering on element to reveal hidden options
 

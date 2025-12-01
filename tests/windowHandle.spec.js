@@ -36,7 +36,7 @@ console.log(text)
 });
 
 ///extract text from the anpther/child window and paste that text inthe previous/parent window
-test.only("Check the blinking text and open a new page and grab any text and paste in the privious window", async ({ browser,browserName }) => {
+test("Check the blinking text and open a new page and grab any text and paste in the privious window", async ({ browser,browserName }) => {
   console.log(`${colors[browserName] || ""}Running on browser: ${browserName}${colors.reset}`);
   test.setTimeout(90000);
    const context = await browser.newContext();

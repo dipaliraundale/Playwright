@@ -24,7 +24,7 @@ test('dynamic screenshot name', async ({ page }) => {
 });
 
 
-test.only("capture screenshot of element",async({page})=>{
+test("capture screenshot of element",async({page})=>{
  await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
  await page.screenshot({path: 'screenshots/example.png'});   ////screenshot of the page
  await page.locator("#displayed-text").screenshot({path: 'screenshots/element-example.png'});  ////screenshot of a specific element
